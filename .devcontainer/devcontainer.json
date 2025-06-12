@@ -1,0 +1,7 @@
+{
+    "name": "PowerShell and Pester",
+    "features": {
+        "ghcr.io/devcontainers/features/powershell:1": {}
+    },
+    "postCreateCommand": "pwsh -c 'Install-Module -Name Pester -Force -SkipPublisherCheck'"
+}
